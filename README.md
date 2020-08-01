@@ -1,6 +1,6 @@
-# AERO-react-test
+# AERO-FrontEnd-Test
 
-test task for react front-end developer
+Test task for front-end developer(React,Redux)
 
 ## Requirements
  nodejs 12.18.2,
