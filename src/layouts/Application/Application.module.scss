@@ -1,0 +1,28 @@
+@import 'styles/_variables.scss';
+
+.root {
+  background-color: #f7f7f7;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  overflow: hidden;
+  padding-top: 64px;
+  @include above_lg() {
+    padding-left: 256px;
+  }
+}
+.contentContainer {
+  display: flex;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+.content {
+  flex: 1 1 auto;
+  height: 100%;
+  overflow: auto;
+}

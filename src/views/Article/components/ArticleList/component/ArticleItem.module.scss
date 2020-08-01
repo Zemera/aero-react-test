@@ -1,0 +1,44 @@
+@import 'styles/_variables.scss';
+
+.article {
+  max-width: 307px;
+  border-radius: 0;
+  max-height: 590px;
+  box-shadow: none;
+  font-family: 'ProximaNova-Light' !important;
+  &_content {
+    padding-left: 32.8;
+  }
+  &_media {
+    height: 157px;
+    width: 211px;
+    margin-top: 15px; // 16:9
+    margin-left: 56px;
+    margin-right: 38.5px;
+  }
+  &_description {
+    font-size: 17.8px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    font-family: 'ProximaNova-Regular';
+  }
+  &_label {
+    font-size: 11.8px;
+    line-height: 22px;
+    color: #9b9b9b;
+    font-family: 'ProximaNova-Light' !important;
+  }
+  &_value {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: 'ProximaNova-Light' !important;
+  }
+  &_button {
+    border-radius: 0;
+    font-family: 'ProximaNova-Light' !important;
+  }
+  &_code {
+    font-family: 'ProximaNova-Light' !important;
+  }
+}

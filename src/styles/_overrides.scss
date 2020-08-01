@@ -1,0 +1,47 @@
+@import './../styles/utilities/_police.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100%;
+  font-family: 'ProximaNova-Regular';
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  height: 100%;
+}
+
+:not(pre) > code {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+blockquote,
+a,
+div {
+  font-family: 'ProximaNova-Regular';
+}
+
+.MuiButton-label {
+  font-family: 'ProximaNova-Light' !important;
+}

@@ -1,0 +1,10 @@
+@import 'styles/_variables.scss';
+
+.content {
+  height: auto;
+  background-color: #f7f7f7;
+  padding-top: 56px;
+  @include above_sm() {
+    // padding-top: 64px;
+  }
+}
